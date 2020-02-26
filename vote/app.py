@@ -5,9 +5,9 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "Cats")
-option_b = os.getenv('OPTION_B', "Dogs")
-redis_password = os.getenv('REDIS_PASSWORD', "Dogs")
+option_a = os.getenv('OPTION_A', "shyam")
+option_b = os.getenv('OPTION_B', "ram")
+redis_password = os.getenv('REDIS_PASSWORD', "ram")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
